@@ -8,7 +8,7 @@ blinker==1.4
 certifi==2020.6.20
 chardet==4.0.0
 charset-normalizer==3.2.0
-command-not-found==0.3
+# command-not-found==0.3
 cryptography==3.4.8
 dataclasses-json==0.5.14
 dbus-python==1.2.18
