@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-&&$pgd_+au&5fj)%3_^klb$#0z#@vk8x96rqv32%swy*z#z@zw
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'yahoofinapi-4e6a6f39a92c.herokuapp.com'
+    'yahoofinapi-4e6a6f39a92c.herokuapp.com',
+    'localhost:3001'
 ]
 
 
