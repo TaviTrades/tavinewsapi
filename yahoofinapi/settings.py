@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-&&$pgd_+au&5fj)%3_^klb$#0z#@vk8x96rqv32%swy*z#z@zw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'yahoofinapi-4e6a6f39a92c.herokuapp.com'
+]
 
 
 # Application definition
@@ -59,6 +61,7 @@ ROOT_URLCONF = 'yahoofinapi.urls'
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3001',
+    'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
     # Add other allowed origins as needed for your deployment
 ]
 
