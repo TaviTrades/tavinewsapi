@@ -64,6 +64,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
     # Add other allowed origins as needed for your deployment
 ]
+CORS_ALLOW_CREDENTIALS = True
+
 
 CACHES = {
     'default': {
