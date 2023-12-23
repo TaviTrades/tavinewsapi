@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-&&$pgd_+au&5fj)%3_^klb$#0z#@vk8x96rqv32%swy*z#z@zw
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'tavitrades.vercel.app',
     'yahoofinapi-4e6a6f39a92c.herokuapp.com',
     'localhost:3001'
 ]
@@ -63,6 +64,7 @@ CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3001',
     'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
+    'https://tavitrades.vercel.app/'
     # Add other allowed origins as needed for your deployment
 ]
 CORS_ALLOW_CREDENTIALS = True
