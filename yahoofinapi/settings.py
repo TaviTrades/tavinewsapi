@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -55,7 +56,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 
@@ -64,8 +64,8 @@ ROOT_URLCONF = 'yahoofinapi.urls'
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3001',
-    'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
-    'https://tavitrades.vercel.app/'
+    # 'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
+    # 'https://tavitrades.vercel.app/'
     # Add other allowed origins as needed for your deployment
 ]
 CORS_ALLOW_CREDENTIALS = True
