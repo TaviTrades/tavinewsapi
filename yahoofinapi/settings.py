@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'tavitrades.vercel.app',
     'yahoofinapi-4e6a6f39a92c.herokuapp.com',
-    'localhost:3001'
+    'localhost',
+    '127.0.0.1'
 ]
 
 
