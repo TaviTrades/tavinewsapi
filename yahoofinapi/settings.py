@@ -63,9 +63,9 @@ ROOT_URLCONF = 'yahoofinapi.urls'
 
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3001',
-    # 'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
-    # 'https://tavitrades.vercel.app/'
+    'http://localhost:3000',
+    'http://yahoofinapi-4e6a6f39a92c.herokuapp.com',
+    'https://tavitrades.vercel.app'
     # Add other allowed origins as needed for your deployment
 ]
 CORS_ALLOW_CREDENTIALS = True

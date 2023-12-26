@@ -1,5 +1,4 @@
 from django.core.cache import cache
-from datetime import timedelta
 from rest_framework.views import APIView
 from rest_framework.response import Response
 import requests
